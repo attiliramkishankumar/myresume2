@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="fire.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="#courses.html">Courses</a></li>
+      <li><a href="#technical.html">Technical Skills</a></li>
+      <li><a href="#personal.html;">Personal Information</a></li>
+      <li><a href="#declaration.html">Declaration</a></li>
+      <li><a href="#contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header section -->
+  <div id="header">
+    <p id="name">RESUME......</p>
+  </div>
+
+  <!-- Skills section -->
+  <div class="content" id="skills">
+    <h3>Skills</h3>
+    <p>
+      <ul>
+        <li>Learnt basic Python, JavaScript, HTML, CSS</li>
+        <li>Good Communication Skills, Presentation Skills, attitude towards leadership, authorization and delegation, conflict resolution and negotiation, and a very good team worker.</li>
+      </ul>
+    </p>
+  </div>
+
+  <!-- Contact section -->
+  <div class="content" id="contact">
+    <button id="contactButton" onclick="contactMe()">Contact Me</button>
+    <button id="downloadButton" onclick="downloadResume()">Download Resume</button>
+  </div>
+  <style>
+    body {
+      background-image: url('htm.png'); /* Correct the background image style */
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: #fff;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    #header {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    #name {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #333;
+    }
+
+    #footer {
+      margin-top: 20px;
+      height: 50px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+  <!-- Footer section -->
+  <div id="footer"></div>
+
+  <!-- JavaScript file inclusion -->
+  <script src="script.js"></script>
+</body>
+</html>
